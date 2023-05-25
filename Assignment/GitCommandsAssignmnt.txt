@@ -1,0 +1,30 @@
+git init - Command to initialize git repository
+git clone https://github.com/your-username/Repository_Name - Command to clone remote repository
+git add . - Command to stage all changes
+git status - Command to view state of working directory and staging area
+
+git branch new_branch     - Command to create new branch
+git checkout new_branch 
+git checkout -b new_branch
+
+git checkout branchName - Command to change branch
+
+git restore --staged . - Command to clean staging area
+
+git fetch branchName childbranchName  e.g - git fetch test feature-branch
+-  Command to get commits and changes from remote branch (It should not merge changes in current branch).
+
+git pull <remote> <branchName>  eg. git pull origin develop
+- Command to get commits and changes from remote branch (It should merge changes in current branch).
+
+git cherry-pick 092018283103810930
+- Command to cherry pick commit which SHA => 092018283103810930
+
+git push -u origin your-branch-name
+- Command to push branch
+
+git push <remote_name> --delete <branch_name>
+- Command to delete remote branch
+
+git rebase --interactive <base>
+- Command to do iterative rebase
